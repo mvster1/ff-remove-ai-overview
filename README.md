@@ -21,7 +21,7 @@ no popups, no bloat, no framework overhead. single-click toggle via the toolbar 
 
 * **zero-config toggle**: click the extension icon to alternate between active and disabled states.
 * **visual status**: displays an `off!` badge and red background on the icon when disabled.
-* **dynamic dom handling**: uses `mutationobserver` to remove ai blocks injected via client-side ajax after initial page load.
+* **dynamic dom handling**: uses `MutationObserver` to remove ai blocks injected via client-side ajax after initial page load.
 
 ### file structure
 
