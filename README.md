@@ -11,7 +11,7 @@ no popups, no bloat, no framework overhead. single-click toggle via the toolbar 
 2. click **load temporary add-on**
 3. select `manifest.json`
 
-#### permanent ((un-signed local build))
+#### permanent (un-signed local build)
 1. open `about:config`
 2. set `xpinstall.signatures.required` to `false`
 3. zip the files into a `.zip` or `.xpi` archive.
