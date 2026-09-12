@@ -10,16 +10,21 @@
     "48": "icons/icon.png"
   },
   "action": {
-    "default_popup": "popup.html",
+    "default_title": "alternate AI removal",
     "default_icon": {
       "48": "icons/icon.png"
     }
   },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
   "content_scripts": [
     {
       "matches": [
-        "https://google.com/search*",
-        "https://google.com.br/search*"
+        "https://*.google.com/search*",
+        "https://*.google.com.br/search*"
       ],
       "js": [
         "content.js"
