@@ -14,7 +14,7 @@ no popups, no bloat, no framework overhead. single-click toggle via the toolbar 
 #### permanent (un-signed local build)
 1. open `about:config`
 2. set `xpinstall.signatures.required` to `false`
-3. zip the files into a `.zip` or `.xpi` archive.
+3. zip the files into a `.zip` or `.xpi` archive
 4. install via `about:addons` -> **install add-on from file....**
 
 ### dynamic behavior
